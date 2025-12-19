@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(npm install:*)",
+      "Bash(timeout 5 node:*)",
+      "Bash(node --check:*)",
+      "Bash(curl:*)",
+      "Bash(npm start)",
+      "Bash(timeout 3 bash:*)",
+      "Bash(timeout 5 bash:*)"
+    ]
+  }
+}
